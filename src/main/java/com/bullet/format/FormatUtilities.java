@@ -27,11 +27,11 @@ public class FormatUtilities {
         double pi = Math.PI;
         float gravity = 9.81f;
         System.out.printf("%10s%10s%6s%4d%6.2f%4.1f", firstName, lastName, gender, age,
-                pi, gravity);   // Brilliant  Chikanya  Male  38  3.14 9.8
+                pi, gravity);   //    Trevor  Madedido  Male  38  3.14 9.8
         System.out.println(" ");
         System.out.println("*************************************************************************");
         System.out.printf("%-15s%15s%8s%6d%8.2f%6.1f", firstName, lastName, gender, age,
-                pi, gravity);   //           Brilliant       Chikanya    Male    38    3.14   9.8
+                pi, gravity);   //Trevor                Madedido    Male    38    3.14   9.8
 
     }
 }
